@@ -1,4 +1,4 @@
-# Immich Swipe
+# Immich Swipe Contra
 
 Swipe-review your Immich library: right = keep, left = trash. Like a dating app, but for photos (and videos).
 
