@@ -17,6 +17,10 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      VITE_SERVER_URL: ${{ secrets.VITE_SERVER_URL }}
+      VITE_USER_1_NAME: ${{ secrets.VITE_USER_1_NAME }}
+      VITE_USER_1_API_KEY: ${{ secrets.VITE_USER_1_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
